@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Spotify - Clone</title>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo.png" width = '44px' alt="Spotify logo">Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+         </nav>
+        <!-- SONGS -->
+        <div class="container">
+            <div class="songList">
+                <h2>Best of English Songs</h2>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img src="covers/download.jfif" alt="1" width="50px" height="50px">
+                        <span class="name">Night Changes</span>
+                        <span id = "songItemPlay" class="timeStamp"><span  class="playButton">3:46 <i id="01"class="fa-solid songItemPlay fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/lmlu.jfif" alt="2" width="50px" height="50px">
+                        <span class="name">Let me love You</span>
+                        <span id = "songItemPlay" class="timeStamp"><span  class="playButton">3:27 <i id="02"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/soy.jfif" alt="3" width="50px" height="50px">
+                        <span  class="name">Shape of You</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">3:54 <i id="03"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/movements.jfif" alt="4" width="50px" height="50px">
+                        <span  class="name">Movements</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">2:28 <i id="04"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/hw.jfif" alt="5" width="50px" height="50px">
+                        <span  class="name">Heat Waves</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">3:59 <i id="05"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/dtd.jfif" alt="6" width="50px" height="50px">
+                        <span  class="name">Dusk Till Dawn</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">4:27 <i id="06"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/ib.jfif" alt="7" width="50px" height="50px">
+                        <span  class="name">INDUSTRY BABY</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">3:32 <i id="07"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="covers/hom.jfif" alt="8" width="50px" height="50px">
+                        <span  class="name">House of Memories</span>
+                        <span id="songItemPlay" class="timeStamp"><span  class="playButton">3:27 <i id="08"class="fa-solid fa-play"></i></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- Bottom -->
+        <div class="bottom">
+            <input type="range" class="range" id="audiobar" min="0" value = 0 max ="100">
+            <!-- Play Icons -->
+            <div class="icons">
+                <i class="fa-solid fa-backward-step" id="one"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step"></i>
+            </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/f64e868c34.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
